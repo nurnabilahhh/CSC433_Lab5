@@ -17,6 +17,7 @@
     }
     foreach ($month as $item) {
         echo $item;
+        
         echo "<br>";
     }
     ?>
