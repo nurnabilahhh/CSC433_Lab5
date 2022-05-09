@@ -15,6 +15,7 @@
         echo $month[$i];
     
         echo "\n";
+        echo "<br>";
     }
     foreach ($month as $item) {
         echo $item;
