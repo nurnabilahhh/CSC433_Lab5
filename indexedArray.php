@@ -15,6 +15,10 @@
         echo $month[$i];
         echo "\n";
     }
+    foreach ($month as $item) {
+        echo $item;
+        echo "<br>";
+    }
     ?>
 </body>
 </html>
