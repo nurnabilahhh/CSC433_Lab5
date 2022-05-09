@@ -7,14 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+<?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
   
     for($i = 0; $i < 11; $i++) {
-    
+        sort ($month);
         echo $month[$i];
         echo "\n";
     }
+    
     ?>
 
 </body>
