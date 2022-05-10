@@ -14,12 +14,15 @@
         sort ($month);
         echo $month[$i];
     
-        echo "\n";
-        echo "\n";
+ echo "\n";
+        
     }
+    echo "<br>";
+    echo "<br>";
     foreach ($month as $item) {
         echo $item;
         echo "<br>";
+        
     }
     ?>
 </body>
